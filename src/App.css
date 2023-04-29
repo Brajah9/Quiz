@@ -1,0 +1,148 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    
+    background: rgb(26, 26, 26);
+    color: rgb(241, 245, 238);
+    display: flex;
+    justify-content: center;
+    font-family: monospace;
+    font-size: 1.8em;
+    font-style: italic;
+    text-shadow: 2px 2px black;
+
+}
+
+.section {
+    background: rgb(194, 226, 168);
+    display: grid;
+    height: 100vh;
+}
+
+.container-card {
+    display: grid;
+    grid-template-columns: 70px 1fr 1fr 70px;
+    grid-template-rows: 40px 300px;
+    gap: 20px;
+
+}
+
+.card1 {
+    background: url(https://cdn2.tfx.company/images/clickwallpapers-free-download-the-last-of-us-2-4K-wallpaper-5.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    color: white;
+    grid-column: 2/3;
+    grid-row: 2/3;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.card2 {
+    background: url(https://e1.pxfuel.com/desktop-wallpaper/686/814/desktop-wallpaper-kratos-god-of-war-ps4-kratos.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    grid-column: 3/4;
+    grid-row: 2/3;
+    border-radius: 10px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card1 h2, .card2 h2{
+    font-size: 3em;
+    text-shadow: 2px 2px black;
+    font-family: monospace;
+} 
+
+.card3 {
+    background: rgb(132, 132, 255);
+    grid-column: 1/5;
+    grid-row: 3/5;
+    border-top-right-radius: 100%;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr 1fr 1fr;
+    grid-template-rows: 1fr 2fr 1fr;
+    gap: 20px;
+
+}
+
+.buttonA {
+    background: rgb(178, 212, 145);
+    padding: 20px;
+    border-radius: 20px;
+    grid-column: 2/3;
+    grid-row: 2/2;
+    border: 2px solid rgb(19, 19, 19);
+    font-family: monospace;
+    font-size: 1.7em;
+
+}
+
+.buttonB {
+    padding: 20px;
+    border-radius: 20px;
+    grid-column: 4/4;
+    grid-row: 2/2;
+    background: rgb(228, 150, 150);
+    border: 2px solid rgb(19, 19, 19);
+    font-family: monospace;
+    font-size: 1.7em;
+}
+
+.pregunta1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pregunta2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pregunta {
+    grid-column: 3/3;
+    grid-row: 2/3;
+    border-radius: 20px;
+    background: rgb(26, 26, 26);
+    border: solid black 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border: 2px solid rgb(0, 0, 0);
+    font-family: monospace;
+    font-size: 1.4em;
+    text-shadow: 1px 1px black;
+    font-style: italic;
+    text-transform: uppercase;
+}
+
+.buttonA:hover {
+    background: rgb(182, 240, 182);
+    transform: scale(1.05);
+    box-shadow: 2px 2px black;
+    cursor: pointer;
+}
+
+.buttonB:hover {
+    background: rgb(228, 78, 78);
+    transform: scale(1.05);
+    box-shadow: 2px 2px black;
+    cursor: pointer;
+}
+

@@ -1,0 +1,8 @@
+.respuesta-cont {
+    font-size: 1.3em;
+    font-family: monospace;
+    color: white;
+    background: red;
+    width: 600px;
+    height: 600px;
+}
